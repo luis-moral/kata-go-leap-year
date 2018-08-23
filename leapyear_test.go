@@ -1,4 +1,4 @@
-package leapyear
+package main
 
 import "testing"
 

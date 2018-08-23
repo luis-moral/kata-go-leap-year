@@ -15,3 +15,23 @@ For example:
 - 1996 is a leap year (divisible by 4)
 - 1600 is a leap year (divisible by 400)
 - 1800 is NOT a leap year (divisible by 4, divisible by 100, NOT divisible by 400)
+
+---
+
+## Run the Application
+
+
+To run the tests run `go test`
+
+To run the application just run `go run ./leapyear -year [year]`
+
+```
+> go run ./leapyear.go -year 12
+> true
+```
+
+```
+> go run ./leapyear.go -year 11
+> false
+```
+
