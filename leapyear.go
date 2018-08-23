@@ -7,11 +7,7 @@ import (
 
 // LeapYear returns if the year is a leap year
 func LeapYear(year int) bool {
-	if year%4 == 0 {
-		return true
-	} else {
-		return false
-	}
+	return year%4 == 0 && !(year&100 == 0 && year%400 != 0)
 }
 
 func main() {
